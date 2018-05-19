@@ -29,8 +29,8 @@ Route::resource('users', 'UsersController');
 // Route::post('/users', 'UserController@store')->name('users.store');
 // Route::get('/users/{user}/edit', 'UserController@edit')->name('users.edit');
 // Route::patch('/users/{user}', 'UserController@update')->name('users.update');
-// Route::delete('/users/{user}', 'UserController@destory')->name('users.destory');
+// Route::delete('/users/{user}', 'UserController@destroy')->name('users.destroy');
 
 Route::get('/login', 'SessionController@create')->name('login');
 Route::post('/login', 'SessionController@store')->name('login');
-Route::delete('/logout', 'SessionController@destory')->name('logout');
+Route::delete('/logout', 'SessionController@destroy')->name('logout');
