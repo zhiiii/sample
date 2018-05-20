@@ -20,7 +20,7 @@
     <div class="jumbotron">
       <h1>Hello Laravel</h1>
       <p class="lead">
-        你现在所看到的是 <a href="http://github.com/zhiiii/sample.git">Laravel Sample App</a> 的项目主页。
+        你现在所看到的是 <a href="http://github.com/zhiiii/sample.git">ATian</a> 的项目主页。
       </p>
       <p>
         一切，将从这里开始。
