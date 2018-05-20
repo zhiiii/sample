@@ -10,6 +10,17 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    // 关联关系
+    public function statuses()
+    {
+        return $this->hasMany(Status::class);
+    }
+
+    public function feed()
+    {
+        return $this->statuses()->orderBy('created_at', 'desc');
+    }
+
     /**
      * The attributes that are mass assignable.
      *
